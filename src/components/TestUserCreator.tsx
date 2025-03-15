@@ -1,3 +1,0 @@
-import { createTestUser } from '../lib/auth';
-
-// ... existing code ... 
