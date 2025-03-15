@@ -1,0 +1,17 @@
+{
+  "recipientEmail": "artur.solak@icloud.com",
+  "templateName": "status_update",
+  "subject": "Aktualizacja statusu rezerwacji",
+  "htmlContent": "<h1>Aktualizacja statusu rezerwacji</h1><p>Szanowny/a {{first_name}} {{last_name}},</p><p>Informujemy, że status Twojej rezerwacji został zmieniony na: <strong>{{status}}</strong></p><p>Szczegóły rezerwacji:</p><p>Data rozpoczęcia: {{start_date}} {{start_time}}<br>Data zakończenia: {{end_date}} {{end_time}}<br>Liczba dni: {{days}}</p><p>Wybrany sprzęt:<br>{{equipment}}</p><p>W razie pytań prosimy o kontakt:<br>Tel: 694 171 171<br>Email: biuro@solrent.pl</p><p>Pozdrawiamy,<br>Zespół SOLRENT</p>",
+  "templateData": {
+    "first_name": "Artur",
+    "last_name": "Solak",
+    "status": "Potwierdzona",
+    "start_date": "15.03.2025",
+    "start_time": "08:00",
+    "end_date": "16.03.2025",
+    "end_time": "16:00",
+    "days": "1",
+    "equipment": "Wiertarka udarowa (1 szt.) - 50 zł/dzień\nMłot wyburzeniowy (1 szt.) - 100 zł/dzień"
+  }
+} 

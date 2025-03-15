@@ -1,0 +1,7 @@
+{
+  "recipientEmail": "kubens11r@gmail.com",
+  "senderEmail": "biuro@solrent.pl",
+  "senderName": "SOLRENT Rezerwacje",
+  "subject": "Test wysyłania maili przez Resend",
+  "body": "<h1>Test wysyłania maili</h1><p>To jest wiadomość testowa wysłana przez serwis Resend.</p>"
+} 

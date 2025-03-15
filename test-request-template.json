@@ -1,0 +1,11 @@
+{
+  "recipientEmail": "kubens11r@gmail.com",
+  "templateId": 1,
+  "templateData": {
+    "customerName": "Jan Kowalski",
+    "reservationDate": "2024-03-15",
+    "reservationTime": "14:00",
+    "equipmentName": "Wiertarka udarowa",
+    "totalPrice": "150 PLN"
+  }
+} 

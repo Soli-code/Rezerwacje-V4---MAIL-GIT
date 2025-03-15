@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --summary-height: 88px;
+}
+
+/* Ustaw stałe wartości z-index dla różnych warstw */
+.modal-overlay {
+  z-index: 50;
+}
+
+/* Blokuj przewijanie strony gdy modal jest otwarty */
+.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* Optymalizacja układu nazw sprzętu */
+@media (max-width: 768px) {
+  .grid-cols-2 > div {
+    min-width: 0;
+  }
+  
+  .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Grid dla kalendarza rezerwacji */
+.grid-cols-31 {
+  grid-template-columns: repeat(31, minmax(40px, 1fr));
+  min-width: 100%;
+  & > div {
+    position: relative;
+  }
+  
+  /* Style dla gradientu tła */
+  & .bg-gradient-to-r {
+    background-size: 200% 100%;
+    animation: gradient 2s ease infinite;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fixed-summary {
+  z-index: 40;
+}
+
+@media (max-width: 768px) {
+  .modal-open {
+    --summary-height: 0px;
+  }
+}
